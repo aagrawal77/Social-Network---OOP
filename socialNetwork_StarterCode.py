@@ -1,9 +1,9 @@
 # Please complete the -- ADD YOUR CODE HERE -- parts ONLY!
 
-class User:
+-- ADD YOUR CODE HERE -- User:      
     """ Creates a user object """
 
-    def __init__(self, user_name, user_id):
+    def -- ADD YOUR CODE HERE --(self, user_name, user_id):     # Constructor to initialize the class instance variables
         """ Initializes the name and ID variables with the user entry """
         self.user_name = -- ADD YOUR CODE HERE --
         self.user_id = -- ADD YOUR CODE HERE --
@@ -28,13 +28,13 @@ class User:
 class Network:
     """ Creates a social network platform """
 
-    def __init__(self):
+    def __init__(self):         # Constructor to initialize the class instance variables
         """ Creates and initializes a users list to store the social network users """
         self.users = []
 
     def numUsers(self):
         """ Returns the length of the users list """
-        return len(self.users)
+        return -- ADD YOUR CODE HERE --
 
     def addUser(self, username):
         """ Adds a user to be included in the users list by the append method """
@@ -115,7 +115,7 @@ def main():
         if action == "p":                               # Prints users
             myNetwork.printUsers()
 
-        elif action == "u":                              # Adds users
+        elif action == -- ADD YOUR CODE HERE --:        # Adds users
             username = input("What username? ")
             myNetwork.addUser(-- ADD YOUR CODE HERE --)
 
@@ -123,7 +123,7 @@ def main():
             user = input("For which user? ")
             myNetwork.printConnections(-- ADD YOUR CODE HERE --)
 
-        elif action == "c":                               # Adds connections
+        elif action == -- ADD YOUR CODE HERE --:        # Adds connections
             if myNetwork.numUsers() < 2:
                 print("You need at least two users to make a connection.")
                 continue
