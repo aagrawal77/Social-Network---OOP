@@ -10,7 +10,7 @@
         self.connections = []       # Creates a list to store the user object's connections
 
     def addConnection(self, connection_id):
-        """ Adds the user object's connections to the connections list that was created in the __init__ function (constructor) """
+        """ Adds the user object's connections to the connections list that was created in the __init__ method (constructor) """
         self.connections.append(-- ADD YOUR CODE HERE --)
 
     def getUserName(self):
@@ -96,7 +96,7 @@ class Network:
             print("\t{}".format(friend.getUserName()))
 
 def main():
-    """ To create an object of the Network class to call the related functions """
+    """ To create an object of the Network class to call the related methods """
 
     myNetwork = -- ADD YOUR CODE HERE --       # Creates a Network class object called my_network
 
@@ -138,5 +138,7 @@ def main():
             print("Sorry, I didn't understand that.")
 
 if __name__ == "__main__":
-    """ Call the main() function to test the related classes """
+    """ Call the main() 
+    
+    to test the related classes """
     main()
