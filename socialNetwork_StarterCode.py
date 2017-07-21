@@ -1,7 +1,7 @@
 # Please complete the -- ADD YOUR CODE HERE -- parts ONLY!
 
 -- ADD YOUR CODE HERE -- User:      
-    """ Creates a user object """
+    """ Consists of the instance variables, methods etc to create a user object """
 
     def -- ADD YOUR CODE HERE --(self, user_name, user_id):     # Constructor to initialize the class instance variables
         """ Initializes the name and ID variables with the user entry """
@@ -26,7 +26,7 @@
         return self.user_id
 
 class Network:
-    """ Creates a social network platform """
+    """ Consists of the instance variables, methods etc to create a social network platform """
 
     def __init__(self):         # Constructor to initialize the class instance variables
         """ Creates and initializes a users list to store the social network users """
